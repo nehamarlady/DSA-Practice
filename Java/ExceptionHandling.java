@@ -9,5 +9,8 @@ class ExceptionHandling{
         catch( Exception e){
             System.out.println(e);
         }
+        finally{
+            System.out.println("This prints no matter what, be there an exception or not");
+        }
     }
 }
